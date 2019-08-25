@@ -11,7 +11,7 @@ setuptools.setup(
     description="A Free Network Discovery Service",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/SamHDev/CosmoDiscovery/,
+    url="https://github.com/SamHDev/CosmoDiscovery/",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
