@@ -1,8 +1,8 @@
 # Cosmo Network Discovery API 
 Documentation for The OpenSource Cosmo Network Discovery API 
 
-This is the main implemtation written in python. For other implementations see `implemtations.md`
-and for a description on the API and Protocol see `apidocs.md`
+This is the main implemtation written in python. For other implementations see [implemtations.md](Implemtations)
+and for a description on the API and Protocol see [apidocs.md](API Docs)
 
 ### Installation
 
