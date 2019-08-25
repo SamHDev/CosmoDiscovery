@@ -68,5 +68,5 @@ For Further Documentation see docs.md
 
 ---
 
-For Licensing see license.txt
+Written for [CosmoHome](https://cosmosmarthome.com) by [SamHDev](https://github.com/SamHDev/). [License]([LICENSE])
 
