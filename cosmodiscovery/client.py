@@ -3,6 +3,9 @@ import json
 import threading
 import time
 
+from .utils import *
+from .message import *
+
 class DiscoveryClient:
     def __init__(self, host="255.255.255.255", port=12892, buffer_size=1024, scheme="_discovery.default",
                  device_name=None):
