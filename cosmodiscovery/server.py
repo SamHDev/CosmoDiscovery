@@ -58,3 +58,16 @@ class DiscoveryServer:
 
     def close(self):
         self.running = False
+        
+        
+class DiscoveryResult:
+    def __init__(self, msg):
+        self.msg = msg
+
+        self.data = msg.data
+        self.ip = msg.host_ip
+        self.mac = msg.host_mac
+        self.name = msg.host_name
+
+    def __repr__(self):
+        return str({"data": self.data, "ip":self.ip, "mac":self.mac, "name":self.name})
