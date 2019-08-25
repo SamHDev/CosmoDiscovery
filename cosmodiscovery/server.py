@@ -3,6 +3,9 @@ import json
 import threading
 import time
 
+from .utils import *
+from .message import *
+
 class DiscoveryServer:
     def __init__(self, host="", port=12892, buffer_size=1024, scheme="_discovery._cosmo.default"):
         self.host = host
